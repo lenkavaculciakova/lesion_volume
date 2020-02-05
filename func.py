@@ -52,5 +52,3 @@ def computation(filename, d):
 	#saving output data in a file in the form of Animal - volume			
 	with open('results.csv', 'w') as f:
 	    [f.write('{0},{1}\n'.format(key, value)) for key, value in results.items()]
-	
-	return "done :)" 	
