@@ -1,4 +1,4 @@
-OPEN IPython (Py 2.7)
+#OPEN IPython (Py 2.7)
 
 # you might need to install a module called xlrd : 'pip install xlrd'
 import sys
