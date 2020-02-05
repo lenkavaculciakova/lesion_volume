@@ -1,0 +1,7 @@
+# you might need to install a module called xlrd : 'pip install xlrd'
+import sys
+sys.path.append('/home/lenka/PowerFolders/Mar')#set a path to a folder where you will work, copy there func.py, volume_computation.py and lesion_siza_areas.xls
+from func import remove_duplicates, volume, computation
+filename = "lesion_size_areas.xlsx" #NOTE: you cannot have spaces in your file name
+d = 105 # distance between two photos in micrometers
+computation(filename, d)
