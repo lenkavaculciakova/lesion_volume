@@ -9,7 +9,7 @@
 import sys
 sys.path.append('<path to your folder>')#set a path to a folder where you will work, copy there func.py, volume_computation.py and lesion_size_areas.xls
 from func import remove_duplicates, volume, computation
-filename = "lesion_size_areas.xlsx" 
+filename = "lesion_area_dem_westerndiet.xlsx" 
 d = 96 # distance between two photos in micrometers
 computation(filename, d)
 ```
